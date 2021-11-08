@@ -21,4 +21,4 @@ version: 2.26.2
 dependencies:
 - name: velero
   version: 2.26.2
-  repository: "file://charts/velero"
+  repository: "http://localhost"
