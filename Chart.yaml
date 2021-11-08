@@ -4,17 +4,13 @@ description: A Helm chart for velero
 home: https://github.com/vmware-tanzu/velero
 icon: https://cdn-images-1.medium.com/max/1600/1*-9mb3AKnKdcL_QD3CMnthQ.png
 maintainers:
-- email: jenting.hsiao@suse.com
-  name: jenting
-- email: sseago@redhat.com
-  name: sseago
-- email: jiangd@vmware.com
-  name: reasonerjt
-- email: yinw@vmware.com
-  name: ywk253100
-- email: bmcerlean@vmware.com
-  name: zubron
+- email: isaacmecchi@gmail.com
+  name: isaacmecchi
 name: velero
 sources:
-- https://github.com/vmware-tanzu/velero
+- https://github.com/mecsys/velero-debug
 version: 2.26.2
+dependencies:
+- name: velero
+  version: "2.26.1"
+  repository: "https://github.com/mecsys/velero-debug"
