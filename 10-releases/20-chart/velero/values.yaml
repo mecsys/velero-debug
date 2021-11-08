@@ -50,7 +50,7 @@ resources:
 dnsPolicy: ClusterFirst
 
 # Init containers to add to the Velero deployment's pod spec. At least one plugin provider image is required.
-initContainers: []
+initContainers:
   - name: velero-plugin-for-aws
     image: velero/velero-plugin-for-aws:v1.3.0
     imagePullPolicy: IfNotPresent
