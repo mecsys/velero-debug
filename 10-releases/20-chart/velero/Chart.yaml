@@ -12,5 +12,5 @@ sources:
 version: 2.26.2
 dependencies:
 - name: velero
-  version: "2.26.1"
+  version: "2.26.2"
   repository: "https://github.com/mecsys/velero-debug"
