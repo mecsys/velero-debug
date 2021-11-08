@@ -8,8 +8,11 @@ maintainers:
 
 type: application
 
-appVersion: 1.7.0
+
 version: 2.26.2
+
+appVersion: 1.7.0
+
 
 dependencies:
 - name: velero
