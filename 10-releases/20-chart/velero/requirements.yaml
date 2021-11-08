@@ -1,4 +1,0 @@
-dependencies:
-- name: velero
-  version: 2.26.2
-  repository: "file://charts/velero"
