@@ -396,7 +396,13 @@ velero:
   #       velero.io/restic: RestoreItemAction
   #     data:
   #       image: velero/velero-restic-restore-helper:v1.7.0
-  configMaps: {}
+  configMaps:
+    restic-restore-action-config:
+      labels:
+        velero.io/plugin-config: ""
+        velero.io/restic: RestoreItemAction
+      data:
+        image: velero/velero-restic-restore-helper:v1.7.0
 
   ##
   ## End of additional Velero resource settings.
