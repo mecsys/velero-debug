@@ -1,23 +1,11 @@
 apiVersion: v2
-appVersion: 1.7.0
+name: velero_stack
 description: A Helm chart for velero
-home: https://github.com/vmware-tanzu/velero
-icon: https://cdn-images-1.medium.com/max/1600/1*-9mb3AKnKdcL_QD3CMnthQ.png
-maintainers:
-- email: jenting.hsiao@suse.com
-  name: jenting
-- email: sseago@redhat.com
-  name: sseago
-- email: jiangd@vmware.com
-  name: reasonerjt
-- email: yinw@vmware.com
-  name: ywk253100
-- email: bmcerlean@vmware.com
-  name: zubron
-name: velero
-sources:
-- https://github.com/vmware-tanzu/velero
-version: 2.26.2
+
+version: 2.26.2-pre
+
+appVersion: 1.7.0-pre
+
 dependencies:
 - name: velero
   version: 2.26.2
