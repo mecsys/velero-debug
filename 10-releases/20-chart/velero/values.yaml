@@ -381,7 +381,7 @@ velero:
       schedule: "@every 1h"
       useOwnerReferencesInBackup: true
       template:
-        ttl: "168h"
+        ttl: "48h"
         includedNamespaces:
         - "*"
         includedResources:
