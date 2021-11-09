@@ -384,7 +384,7 @@ velero:
         ttl: "168h"
         includedNamespaces:
         - "*"
-        includeResources:
+        includedResources:
         - "*"
 
   # Velero ConfigMaps.
