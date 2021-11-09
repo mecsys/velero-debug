@@ -371,7 +371,21 @@ velero:
   #       ttl: "240h"
   #       includedNamespaces:
   #       - foo
-  schedules: {}
+  schedules:
+    backup-completo-do-cluster-1h:
+      disabled: false
+      labels:
+        myenv: foo
+      annotations:
+        myenv: foo
+      schedule: "@every 1h"
+      useOwnerReferencesInBackup: true
+      template:
+        ttl: "168h"
+        includedNamespaces:
+        - "*"
+        includeResources:
+        - "*"
 
   # Velero ConfigMaps.
   # Eg:
